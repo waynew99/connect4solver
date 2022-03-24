@@ -12,11 +12,11 @@ in1.txt, in2.txt, in3.txt  - sample board encodings for testing, e.g. type  ./co
 Usage:
 1. `make`
 2. then run the match.py script:
-   ./match.py                           - shows usage
-   ./match.py John Lily                 - lets two humans play against each other
-   ./match.py John connect4             - lets human play against a computer player
-   ./match.py connect4 c4randc          - plays match between two computer players 
-   ./match.py -q John connect4          - 'quiet' mode, only shows final score
-   ./match.py -q c4constc c4randpas 10  - plays 10 games in 'quiet' mode, shows total final score
+   - ./match.py                           - shows usage
+  - ./match.py John Lily                 - lets two humans play against each other
+  - ./match.py John connect4             - lets human play against a computer player
+  - ./match.py connect4 c4randc          - plays match between two computer players 
+  - ./match.py -q John connect4          - 'quiet' mode, only shows final score
+  - ./match.py -q c4constc c4randpas 10  - plays 10 games in 'quiet' mode, shows total final score
 
 Starter code obtained from cs313-f21 Programming Lnguages at Middlebury College.
